@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Glyme的小居
 subtitle:
-description:
-author: John Doe
-language:
+description: 记录我的学习、生活点滴
+author: Glyme
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,9 +63,29 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: 'git@github.com:glymehrvrd/glymehrvrd.github.io.git'
+
+# Math Plugin
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src: '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+    config:
+      # MathJax config
+      tex2jax:
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ]
+  katex:
+    css: '//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css'
+    js: '//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js'
+    config:
+      # KaTeX config
+      empty
+
+# Disqus
+disqus_shortname: glyme
