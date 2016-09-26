@@ -2,7 +2,11 @@
 title: 基于统计模型纠正Anki_GRE词典的分词错误
 date: 2016-09-24 21:15:35
 categories: science
-tags: Anki, 统计, 马尔科夫模型, 分词
+tags: 
+- Anki
+- 统计
+- 马尔科夫模型
+- 分词
 ---
 
 在Anki软件中，使用的极品GRE卡牌组中的单词解释不知道怎么回事，单词经常被莫名其妙的断开。
