@@ -87,5 +87,5 @@ math:
       # KaTeX config
       empty
 
-# Disqus
-disqus_shortname: glyme
+# Duoshuo
+duoshuo_shortname: glyme
