@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Glyme的小居
-subtitle:
+title: Glyme's Notes
+subtitle: just Google it
 description: 记录我的学习、生活点滴
 author: Glyme
 language: zh-Hans
@@ -89,3 +89,6 @@ math:
 
 # Duoshuo
 duoshuo_shortname: glyme
+
+include:
+  - .nojekyll
