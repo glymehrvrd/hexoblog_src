@@ -9,6 +9,8 @@ tags: Kindle
 
 但是书中包含大量由MathJAX渲染的公式，无论是直接保存html或是另存为word，在Kindle上的阅读体验都比较糟糕。只有pdf格式才能完美的显示公式，于是想到使用chrome将网页保存为pdf格式。
 
+<!-- more -->
+
 首先使用`开发者工具`删掉网页中多余的元素，只保留书本内容，然后使用chrome的`打印pdf`功能将网页保存为pdf格式。
 
 但chrome只能打印A4,A3等几种大小的pdf，这些大小在kindle上阅读体验也不好。

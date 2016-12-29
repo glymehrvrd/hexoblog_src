@@ -2,7 +2,7 @@
 title: Scala练手——斗鱼弹幕监控
 date: 2016-09-19 17:19:00
 categories: technology
-tags: scala
+tags: Scala
 ---
 # Scala练手——斗鱼弹幕监控
 
@@ -10,6 +10,8 @@ tags: scala
 最近在学习hadoop, spark, kafka, zookeeper等大数据处理框架，也就顺带学习了一下scala这门编程语言，以阅读spark的源代码（spark核心使用scala编写）。没想到scala越学越上瘾，越来越喜欢函数式编程了。
 
 在这里以`斗鱼弹幕监控`为课题，使用scala编写了一个斗鱼弹幕获取、分析的小程序练练手，在这里记录一下遇到的问题以及解决方案。
+
+<!-- more -->
 
 ## 斗鱼API
 斗鱼API使用时，需要与斗鱼服务器建立TCP长连接，使用心跳包维护连接，每一个连接对应一个斗鱼房间。当有消息时，斗鱼服务器会通过连接将消息推送过来。消息为Key-Value的格式，使用斗鱼自定义的序列化方法进行序列化，在客户端需要自行反序列化。

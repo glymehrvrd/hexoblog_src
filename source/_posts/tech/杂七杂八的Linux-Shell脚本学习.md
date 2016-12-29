@@ -3,11 +3,13 @@ title: 杂七杂八的Linux Shell脚本学习
 date: 2016-05-09 15:46:37
 categories: technology
 tags:
-
+- Linux
+- Shell
 ---
 
 本文为[Linux Shell Scripting Cookbook]学习记录，枚举了一些常用的命令。
 
+<!-- more -->
 ## tr
 `tr [options] set1 set2`  
 translate 命令，用于将输入字符从set1映射到set2。

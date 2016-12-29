@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://glymehrvrd.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -70,25 +70,3 @@ theme: next
 deploy:
   type: git
   repo: 'git@github.com:glymehrvrd/glymehrvrd.github.io.git'
-
-# Math Plugin
-math:
-  engine: 'mathjax' # or 'katex'
-  mathjax:
-    src: '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
-    config:
-      # MathJax config
-      tex2jax:
-        inlineMath: [ ['$','$'], ["\\(","\\)"] ]
-  katex:
-    css: '//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css'
-    js: '//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js'
-    config:
-      # KaTeX config
-      empty
-
-# Duoshuo
-duoshuo_shortname: glyme
-
-include:
-  - .nojekyll

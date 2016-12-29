@@ -3,14 +3,15 @@ title: 记录C++的一个调试过程
 date: 2016-10-07 18:11:00
 categories: technology
 tags:
-- c++
-- debug
+- CPP
 ---
 # 记录C++的一个调试过程
 
 ## Pass-By-Value
 
 使用scala编写的斗鱼弹幕监控系统运行良好，但是java的内存消耗比较大，我的小破VPS有点承受不住。于是打算使用c++重写，但在过程中却遇到了一个bug，我调试一天的时间才解决。虽然这个bug非常的愚蠢，但是不常使用c++的人可能比较容易犯而且很难找到问题出在哪，特此记录。
+
+<!-- more -->
 
 我使用了一个`unordered_map<int, byte_buffer>`保存房间的缓冲(key为socket file descriptor)，缓冲`byte_buffer`是我仿照java的`ByteBuffer`写的一个类，具有`flip`,`compact`等功能。
 

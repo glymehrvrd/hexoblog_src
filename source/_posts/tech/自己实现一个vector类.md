@@ -3,11 +3,14 @@ title: 自己实现一个vector类
 date: 2016-04-09 15:50:56
 categories: technology
 tags:
+- CPP
 ---
 
 准备面试，看到很多人说遇到面试官让自己在纸上写一个std类，所以我就拿std::vector作为练手。
 
 主要思想就是使用swap保证异常安全性，遵守`Effective C++`的一些item，比如从`copy-constructor`和`assign-constructor`提取共同的代码组成`init`函数。
+
+<!-- more -->
 
 虽然代码比较简单，但还是出现了越界等问题调试了很久，可能手太生了，以后得多练练！
 ```c++

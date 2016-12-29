@@ -3,11 +3,15 @@ title: Java concurrent包学习
 date: 2016-05-09 15:47:21
 categories: technology
 tags:
+- JAVA
+- Concurrent
 ---
 
 JDK5.0对java.util.concurrent包做了大量的改进，吸收了大量的由 [Doug Lea](https://en.wikipedia.org/wiki/Doug_Lea) 编写的util.concurrent包中的内容。
 
 这里记录一下我对java.util.concurrent包学习的总结。
+
+<!-- more -->
 
 摘要自其他文章
 
